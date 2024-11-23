@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <style>
+    /* Reset and base styles */
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #282c34;
+      color: white;
+      text-align: center;
+      padding: 1.5rem;
+    }
+    header h1 {
+      margin: 0.5rem 0;
+    }
+    header p {
+      margin: 0;
+      font-size: 1.1rem;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background: #61dafb;
+      padding: 0.5rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: #282c34;
+      margin: 0 1rem;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .skill {
+      flex: 1 1 calc(33.333% - 1rem);
+      background: #f4f4f4;
+      border: 1px solid #ddd;
+      padding: 1rem;
+      text-align: center;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #282c34;
+      color: white;
+    }
+    footer a {
+      color: #61dafb;
+      text-decoration: none;
+    }
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>John Doe</h1>
+    <p>IT Student | JavaScript Enthusiast | Node.js, Express.js, TypeScript Expert</p>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="container">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hi! I'm John Doe, a passionate IT student with a deep interest in web development. My expertise lies in building efficient and scalable web applications using JavaScript, Node.js, Express.js, and TypeScript. I enjoy solving challenging problems and creating elegant solutions.
+      </p>
+    </section>
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skill">
+          <h3>JavaScript</h3>
+          <p>Advanced knowledge of ES6+ features.</p>
+        </div>
+        <div class="skill">
+          <h3>Node.js</h3>
+          <p>Backend development and RESTful API design.</p>
+        </div>
+        <div class="skill">
+          <h3>Express.js</h3>
+          <p>Building efficient server-side applications.</p>
+        </div>
+        <div class="skill">
+          <h3>TypeScript</h3>
+          <p>Strong typing for robust applications.</p>
+        </div>
+        <div class="skill">
+          <h3>MongoDB</h3>
+          <p>NoSQL database integration.</p>
+        </div>
+        <div class="skill">
+          <h3>React.js</h3>
+          <p>Frontend development with reusable components.</p>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Task Manager:</strong> A full-stack app using Node.js, Express.js, and MongoDB to manage daily tasks.</li>
+        <li><strong>E-commerce Website:</strong> A responsive online store using React and TypeScript.</li>
+        <li><strong>Portfolio Website:</strong> Personal website showcasing skills and projects (this one!).</li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        Have a project in mind or want to connect? Feel free to reach out!
+      </p>
+      <p>Email: <a href="mailto:john.doe@example.com">john.doe@example.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/johndoe">linkedin.com/in/johndoe</a></p>
+      <p>GitHub: <a href="https://github.com/johndoe">github.com/johndoe</a></p>
+    </section>
+  </div>
+  <footer>
+    <p>&copy; 2024 John Doe | Built with HTML and CSS</p>
+  </footer>
+</body>
+</html>
